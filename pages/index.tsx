@@ -15,11 +15,11 @@ const Home: NextPage = () => {
         <br/>
 
         <h1 className={styles.title}>
-          WELCOME TO <a> 8FRENS NFT </a>
+          WELCOME TO <a> COCOBLOCKS NFT </a>
         </h1>
 
         <p className={styles.description}>
-        The primary purpose is exploration & discovery, they also possess different vibes and stories.
+        Crafted with meticulous attention to detail, this masterpiece captures the essence of the digital age in all its glory.
         </p>
 
 
@@ -34,27 +34,27 @@ const Home: NextPage = () => {
         < br />
 
         <div className={styles.grid}>
-          <a href="https://twitter.com/8frens/" className={styles.card}>
-            <h2>Twitter &rarr;</h2>
+          <a href="https://twitter.com/cocoblocksNFT/" className={styles.card}>
+            <h2>TWITTER &rarr;</h2>
             <p>
-              Our big community is available here! Follow us.
+              Our big community is available here!.
             </p>
              </a>
 
-          <a href="https://instagram.com/8frens" className={styles.card}>
-            <h2>Instagram &rarr;</h2>
+          <a href="https://cocoblocks.buzz" className={styles.card}>
+            <h2>ETHERSCAN &rarr;</h2>
             <p>
-              Follow us on instagram, repost and Tag us!.
+              You can just mint on etherscan or manage your transactions.
             </p>
           </a>
 
           <a
-            href="https://discord.gg/AwZGSuRZDK"
+            href="https://opensea.io"
             className={styles.card}
           >
-            <h2>Discord &rarr;</h2>
+            <h2>OPENSEA &rarr;</h2>
             <p>
-              Be part of our Builders Community.
+              Collect our cool NFTs on the marketplace.
             </p>
           </a>
         </div>
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
         <main className={styles.title}>
 
           <p className={styles.description}>
-            Developed by <a> Chumbacash </a>
+            Developed by <a> ChumbaLabs </a>
           </p>
 
          </main>
