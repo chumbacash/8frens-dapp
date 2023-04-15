@@ -15,17 +15,17 @@ const Home: NextPage = () => {
         <br/>
 
         <h1 className={styles.title}>
-          WELCOME TO <a> COCOBLOCKS NFT </a>
+          WELCOME TO <a> 8FRENS </a>
         </h1>
 
         <p className={styles.description}>
-        Crafted with meticulous attention to detail, this masterpiece captures the essence of the digital age in all its glory.
+        This page is only for 8frens NFT 
         </p>
 
 
         <div>
         <Web3Button  contractAddress="0x2AD7BdEf55d635e928e9afcA52Ad6273E31B2cd9" action={(contract) =>
-           {contract.erc721.claim(2)}}
+           {contract.erc721.claim(3)}}
            colorMode="light" accentColor="#fc0398"> 
             CLAIM NFT
          </Web3Button>
@@ -34,14 +34,14 @@ const Home: NextPage = () => {
         < br />
 
         <div className={styles.grid}>
-          <a href="https://twitter.com/cocoblocksNFT/" className={styles.card}>
+          <a href="https://twitter.com/8frens/" className={styles.card}>
             <h2>TWITTER &rarr;</h2>
             <p>
               Our big community is available here!.
             </p>
              </a>
 
-          <a href="https://cocoblocks.buzz" className={styles.card}>
+          <a href="https://etherscan.io/address/0x2ad7bdef55d635e928e9afca52ad6273e31b2cd9" className={styles.card}>
             <h2>ETHERSCAN &rarr;</h2>
             <p>
               You can just mint on etherscan or manage your transactions.
@@ -49,12 +49,12 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://opensea.io"
+            href="https://opensea.io/collection/8frens-nft"
             className={styles.card}
           >
             <h2>OPENSEA &rarr;</h2>
             <p>
-              Collect our cool NFTs on the marketplace.
+              Collect our cool NFTs on the OpenSea marketplace.
             </p>
           </a>
         </div>
