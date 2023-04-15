@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-        This page is only for 8frens NFT 
+        Discover and collect cool 8FRENS NFT from great artist.
         </p>
 
 
